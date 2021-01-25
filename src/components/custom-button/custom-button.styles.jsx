@@ -16,11 +16,16 @@ const invertedButtonStyles = css`
   background-color: white;
   color: black;
   border: 1px solid black;
+  width: 80%;
+  opacity: 0.7;
+  position: absolute;
+  top: 255px;
 
   &:hover {
     background-color: black;
     color: white;
     border: none;
+    opacity: 0.85;
   }
 `;
 
